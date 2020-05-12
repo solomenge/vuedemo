@@ -7,6 +7,9 @@
     <router-link :to="{path:'/small'}">
     <button class="button small"> {{small}} </button>
     </router-link>
+    <router-link :to="{path:'/listshow'}">
+    <button class="button listshow"> {{listshow}} </button>
+    </router-link>
   </div>
 </template>
 
@@ -17,7 +20,8 @@ export default {
     return {
       welcome: 'Welcome',
       big:'Big',
-      small:'Small'
+      small:'Small',
+      listshow: 'ListShow'
     }
   }
 }

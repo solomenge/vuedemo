@@ -106,7 +106,7 @@ export default {
 .today-school-leave-show {
   // border:1px solid blue;
   height: 180px;
-  width: 850px;
+  width: 110%;
   color:#deeffc;
   margin-top:80px;
   margin-left:55px;
@@ -115,7 +115,7 @@ export default {
 }
 .today-students-arriving-show {
   height: 180px;
-  width: 850px;
+  width: 110%;
   color:#deeffc;
   margin-top:100px;
   margin-left:55px;

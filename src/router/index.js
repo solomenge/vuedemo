@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import Big from '../components/big/Big.vue'
 import Small from '../components/small/Small.vue'
 import Welcome from '../components/Welcome.vue'
+import ListShow from '../components/datalistshow/datalistshow.vue'
 
 Vue.use(Router)
 
@@ -29,6 +30,11 @@ export default new Router({
       path: '/small',
       name: 'Small',
       component: Small
+    },
+    {
+      path: '/listShow',
+      name: 'ListShow',
+      component: ListShow
     },
   ]
 })
